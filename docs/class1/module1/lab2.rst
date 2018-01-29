@@ -50,9 +50,6 @@ Cut and paste the Service Principle export commands from teh above commands and 
 
 printenv | grep AZURE
 
-.. TODO:: FIX AZURE_STUDENT VAR
-
-
 The results should look like the image below.
 
 .. image:: /_static/export-results.png
