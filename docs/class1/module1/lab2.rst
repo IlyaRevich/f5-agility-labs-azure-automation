@@ -63,3 +63,31 @@ Deploy BIG-IP Stack
 
    cd ~/f5-azure-automation-lab/bigipClusterCreate/
    ansible-playbook site.yml
+
+
+Deploy CoreOS Server
+---------------------
+
+.. code-block:: bash
+
+   cd ~/f5-azure-automation-lab/coreosCreate/
+   ansible-playbook site.yml
+
+
+Run Docker Images on CoreOS Server
+-----------------------------------
+
+.. code-block:: bash
+
+   cd ~/f5-azure-automation-lab/coreosConfigure/
+   ansible-playbook -i azure_rm.py site.yml
+
+
+
+Create BIG-IP Configuration for f5HelloWorld
+--------------------------------------------
+
+.. code-block:: bash
+
+   cd ~/f5-azure-automation-lab/f5HelloWorld/
+   ansible-playbook -i azure_rm.py site.yml
