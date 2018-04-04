@@ -35,7 +35,7 @@ Create Service Principle
 .. code-block:: bash
 
    cd ~/f5-azure-automation-lab/scripts/
-   ./spCreate.sh
+   source spCreate.sh
 
 
 The results should look like the image below.
